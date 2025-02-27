@@ -1,19 +1,20 @@
 import React from 'react'
+import Link from "next/link";
 
 const navbar = () => {
   return (
-    <nav className='h-16 bg-purple-700 flex justify-between px-3 items-center text-white '>
+    <nav className='h-16 bg-blue-700 flex justify-between px-3 items-center text-white '>
       <div className="logo font-bold text-2xl"> 
         <a href="/">SimpleLinks</a>
       </div>
       <ul className='flex justify-center gap-4 items-center'>
-        <a href="/"><li>Home</li></a>
-        <a href="/about"><li>About</li></a>
-        <a href="/shorten"><li>Shorten</li></a>
-        <a href="/contact"><li>Contact Us</li></a>
+        <Link href="/"><li>Home</li></Link>
+        <Link href="/about"><li>About</li></Link>
+        <Link href="/shorten"><li>Shorten</li></Link>
+        <Link href="/contact"><li>Contact Us</li></Link>
         <li className='flex gap-3'>
-          <a href="/shorten"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold'>Try Now</button></a>
-          <a href="/github"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold'>GitHub</button></a>
+          <Link href="/shorten"><button className='bg-blue-500 rounded-lg shadow-lg p-3 py-1 font-bold'>Try Now</button></Link>
+          <Link href="https://github.com/SiripuramSrikar/urlshortner"><button className='bg-blue-500 rounded-lg shadow-lg p-3 py-1 font-bold'>GitHub</button></Link>
         </li>
       </ul>
     </nav>
