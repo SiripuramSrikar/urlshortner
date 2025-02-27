@@ -38,20 +38,20 @@ const shorten = () => {
         <input
           type="text"
           value={url}
-          className="px-4 py-2 focus:outline-purple-600 rounded-md"
+          className="px-4 py-2 focus:outline-blue-600 rounded-md"
           placeholder="Enter your URL"
           onChange={(e) => setUrl(e.target.value)}
         />
         <input
           type="text"
           value={shorturl}
-          className="px-4 py-2 focus:outline-purple-600 rounded-md"
+          className="px-4 py-2 focus:outline-blue-600 rounded-md"
           placeholder="Enter your preferred short URL text (optional)"
           onChange={(e) => setShortUrl(e.target.value)}
         />
         <button
           onClick={generate}
-          className="bg-purple-500 rounded-lg shadow-lg p-3 py-1 my-3 font-bold text-white"
+          className="bg-blue-500 rounded-lg shadow-lg p-3 py-1 my-3 font-bold text-white"
         >
           Generate
         </button>
