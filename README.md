@@ -1,4 +1,3 @@
-HEAD
 SIMPLELINKS- A URL SHORTNER
 =======
 # Project Name
