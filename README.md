@@ -35,6 +35,3 @@ A sleek and efficient URL shortener that allows users to convert long, complex l
 - HTML, CSS, JavaScript
 - Mongodb
 - Any other relevant technologies
-
-
->>>>>>> 449b4a2 (.)
