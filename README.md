@@ -15,20 +15,22 @@ A sleek and efficient URL shortener that allows users to convert long, complex l
 - QR Code Generation: Generate QR codes for quick access.
 - Secure & Reliable: Ensures data privacy and link security.
 
-## Installation
-
 1. Clone the repository:
-  ```git clone https://github.com/22R01A05C9/Files-React.git
-  cd files
-  ```
+   ```sh
+   git clone https://github.com/SiripuramSrikar/urlshortner.git
+   cd files
+   ```
 2. Install dependencies:
-   ```npm install
+   ```sh
+   npm install
    ```
 3. Set up environment variables (.env file):
-   ```MONGO_URI=your_mongodb_connection_string
+   ```sh
+   MONGO_URI=your_mongodb_connection_string
    ```
 4. Start the development server:
-   ```npm run dev
+   ```sh
+   npm run dev
    ```
 ## Technologies Used
 - Next.js
